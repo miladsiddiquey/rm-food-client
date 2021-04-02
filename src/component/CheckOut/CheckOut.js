@@ -47,14 +47,14 @@ const CheckOut = () => {
                 </thead>
                 <tbody className="fw-bold">
                     <tr>                      
-                        <td>{particularItem.name}</td>
+                        <td>{particularItem?.name}</td>
                         <td>1</td>
-                        <td>${particularItem.price}</td>
+                        <td>${particularItem?.price}</td>
                     </tr>
                     <tr>                      
                         <td>Total</td>
                         <td>1</td>
-                        <td>${particularItem.price}</td>
+                        <td>${particularItem?.price}</td>
                     </tr>
                     
                 </tbody>
