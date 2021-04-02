@@ -26,7 +26,7 @@ const Home = () => {
                 {foods.length > 0 && foods.map((food, index) =>
                 
 
-                    <div key={index} className="col-sm-12 col-md-4 col-lg-4  mt-5">
+                    <div key={index} className="col-sm-12 col-md-4 col-lg-4  mt-5 d-flex justify-content-around">
                         <div className="card " style={{ width: '20rem', height: '26rem' }}>
                             <img src={food.imageURL} className="card-img-top" alt="" style={{ width: '18rem', height: '15rem' }} />
                             <div className="card-body ">
