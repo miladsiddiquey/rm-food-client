@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ServiceContext  } from '../../App';
-import Food from '../Food/Food';
+
 
 
 
@@ -23,13 +23,7 @@ const Home = () => {
         <div className="container">
             <div className="row ">
 
-                {
-                    foods.length ===0 && <div class="d-flex justify-content-center">
-                    <div class="spinner-border" role="status">
-                      
-                    </div>
-                  </div>
-                }
+                
 
                 {foods.length > 0 && foods.map((food, index) =>
                 
