@@ -19,4 +19,4 @@ This is a E-commerce website and it is full stack. Products can be added and del
 
 ## site-live-link: https://rm-food.web.app/home
 
-## server-site-git-link: https://github.com/Porgramming-Hero-web-course/full-stack-server-miladsiddiquey.git
+## server-site-git-link: https://github.com/miladsiddiquey/rm-food-server.git
