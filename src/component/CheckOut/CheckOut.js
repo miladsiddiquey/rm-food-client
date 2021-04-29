@@ -14,7 +14,14 @@ const CheckOut = () => {
 
     const handleCheckOut =() =>{
 
-        const orderDetails = {...loggedInUser, ...particularItem,   orderTime: new Date()}
+        const orderDetails = {
+            ...loggedInUser, 
+            name: particularItem.name,
+            price: particularItem.price,
+            wight: particularItem.wight,
+            imageURL: particularItem.imageURL,  
+            orderTime: new Date()
+        }
         fetch('https://blooming-sierra-52964.herokuapp.com/addOrder',{
             method : "POST",
             headers:{
