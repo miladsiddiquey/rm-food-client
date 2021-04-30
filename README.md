@@ -23,6 +23,10 @@ Features:
     * express js
     * context api
 
+Ourput:
+  *Home page:
+  
+  ![FireShot Capture 219 - R M Foods - rm-food web app](https://user-images.githubusercontent.com/75581636/116721440-20624d80-a9ff-11eb-9148-9f3237d668a7.jpg)
 
 ## site-live-link: https://rm-food.web.app/home
 
